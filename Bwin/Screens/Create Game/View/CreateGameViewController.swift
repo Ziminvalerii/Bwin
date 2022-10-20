@@ -86,6 +86,18 @@ class CreateGameViewController: UIViewController {
         bestScoreLabel.text = "Best score: \(UserDefaultsValues.bestScore.description)"
     }
     
+    override var shouldAutorotate: Bool {
+        return true
+    }
+
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return .portrait
+    }
+
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }
+    
     func showAlert() {
         let alertController = UIAlertController(title: "You don`t have enough coins", message: "You dont have enough coins to start this game. Please, connect to game with smaller stake", preferredStyle: .alert)
         let cancel = UIAlertAction(title: "Got it", style: UIAlertAction.Style.cancel)

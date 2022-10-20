@@ -28,9 +28,23 @@ class InstructionViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.navigationBar.isHidden = true
         currentIndex = 0
         // Do any additional setup after loading the view.
     }
+    
+    override var shouldAutorotate: Bool {
+        return true
+    }
+
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return .portrait
+    }
+
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }
+    
     @IBAction func arrowRightPressed(_ sender: Any) {
         animationView?.stop()
         animationView?.removeFromSuperview()

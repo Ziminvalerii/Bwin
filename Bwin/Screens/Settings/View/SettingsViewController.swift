@@ -38,6 +38,7 @@ class SettingsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.navigationBar.isHidden = true
         if let view = self.view as! SKView? {
             if let scene = SKScene(fileNamed: "StartScene") as? StartScene {
                 scene.scaleMode = .aspectFill
@@ -48,6 +49,18 @@ class SettingsViewController: UIViewController {
 //            view.showsNodeCount = true
 //            view.showsPhysics = true
         }
+    }
+    
+    override var shouldAutorotate: Bool {
+        return true
+    }
+
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return .portrait
+    }
+
+    override var prefersStatusBarHidden: Bool {
+        return true
     }
 
     @IBAction func sliderValueChange(_ sender: Any) {

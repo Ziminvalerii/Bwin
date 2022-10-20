@@ -34,8 +34,21 @@ class ShopViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.navigationBar.isHidden = true
         currentIndex = model.firstIndex(of: UserDefaultsValues.currentBall)!
         // Do any additional setup after loading the view.
+    }
+    
+    override var shouldAutorotate: Bool {
+        return true
+    }
+
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return .portrait
+    }
+
+    override var prefersStatusBarHidden: Bool {
+        return true
     }
     
     private func showAlert() {

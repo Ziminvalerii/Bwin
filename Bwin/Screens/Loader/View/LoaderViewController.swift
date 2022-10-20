@@ -28,6 +28,7 @@ class LoaderViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
+        self.navigationController?.navigationBar.isHidden = true
         DispatchQueue.main.asyncAfter(deadline: .now()+2.5, execute: {
             let rootNavVC = NavigationController()
             self.router.navigationController = rootNavVC
@@ -35,10 +36,22 @@ class LoaderViewController: UIViewController {
             (UIApplication.shared.delegate as? AppDelegate)?.window?.rootViewController = rootNavVC
         })
     }
-    
+
     override func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(animated)
         print("disapear")
+    }
+    
+    override var shouldAutorotate: Bool {
+        return true
+    }
+
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return .portrait
+    }
+
+    override var prefersStatusBarHidden: Bool {
+        return true
     }
 
 }

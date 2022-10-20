@@ -51,6 +51,7 @@ class StartViewController: BaseViewController<StartPresenterProtocol>, StartView
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        self.navigationController?.navigationBar.isHidden = true
         openBonus = false
         if let view = self.view as! SKView? {
             view.scene?.isPaused = false
@@ -68,6 +69,7 @@ class StartViewController: BaseViewController<StartPresenterProtocol>, StartView
         presenter.stop()
     }
     
+  
     func configureBonusView() {
         bonusTitleImage.image = Date().timeIntervalSince1970 > UserDefaultsValues.bonusDate.timeIntervalSince1970 ? UIImage(named: "congratulation")! : UIImage(named: "waitTime")!
         bonusSubtitleLabel.text = Date().timeIntervalSince1970 > UserDefaultsValues.bonusDate.timeIntervalSince1970 ? "You have recieved daily bonus " : "You have already recieved daily bonus. To recieve it again you need to wait"
