@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		358D387C8A21963958E45642 /* Pods_Bwin_BwinUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D350A675C4B5AF01B99B0DD1 /* Pods_Bwin_BwinUITests.framework */; };
 		9146B8B658D3654F50B9CF26 /* Pods_Bwin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C944F1DE7A71C64C8808BD1 /* Pods_Bwin.framework */; };
-		978714E72B9ACDA9A6E393C8 /* Pods_BwinTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DABC7359A9032B17CF09152 /* Pods_BwinTests.framework */; };
 		D10266A328FF290800EA2E3B /* InstructionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10266A228FF290800EA2E3B /* InstructionModel.swift */; };
 		D10266A528FF2C0E00EA2E3B /* swipe.json in Resources */ = {isa = PBXBuildFile; fileRef = D10266A428FF2C0E00EA2E3B /* swipe.json */; };
 		D10266A728FF2C3A00EA2E3B /* courtBacketball.json in Resources */ = {isa = PBXBuildFile; fileRef = D10266A628FF2C3A00EA2E3B /* courtBacketball.json */; };
@@ -52,9 +50,6 @@
 		D1D60FE628F62189007C7237 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D60FE528F62189007C7237 /* GameViewController.swift */; };
 		D1D60FE928F62189007C7237 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1D60FE728F62189007C7237 /* Main.storyboard */; };
 		D1D60FEE28F6218D007C7237 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1D60FEC28F6218D007C7237 /* LaunchScreen.storyboard */; };
-		D1D60FF828F6218D007C7237 /* BwinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D60FF728F6218D007C7237 /* BwinTests.swift */; };
-		D1D6100228F6218D007C7237 /* BwinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D6100128F6218D007C7237 /* BwinUITests.swift */; };
-		D1D6100428F6218D007C7237 /* BwinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D6100328F6218D007C7237 /* BwinUITestsLaunchTests.swift */; };
 		D1D6102228F62288007C7237 /* BehaviourProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D6101628F62288007C7237 /* BehaviourProtocols.swift */; };
 		D1D6102328F62288007C7237 /* GameStatesEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D6101728F62288007C7237 /* GameStatesEnum.swift */; };
 		D1D6102428F62288007C7237 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D6101928F62288007C7237 /* Array.swift */; };
@@ -76,23 +71,6 @@
 		D1D6104928F7539B007C7237 /* StartScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D1D6104828F7539B007C7237 /* StartScene.sks */; };
 		D1D6104B28F7541B007C7237 /* StartScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D6104A28F7541B007C7237 /* StartScene.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		D1D60FF428F6218D007C7237 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D1D60FD228F62189007C7237 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D1D60FD928F62189007C7237;
-			remoteInfo = Bwin;
-		};
-		D1D60FFE28F6218D007C7237 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D1D60FD228F62189007C7237 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D1D60FD928F62189007C7237;
-			remoteInfo = Bwin;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0969598B78BC34DDA313B817 /* Pods-BwinTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BwinTests.debug.xcconfig"; path = "Target Support Files/Pods-BwinTests/Pods-BwinTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -146,11 +124,6 @@
 		D1D60FE528F62189007C7237 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		D1D60FE828F62189007C7237 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D1D60FED28F6218D007C7237 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D1D60FF328F6218D007C7237 /* BwinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BwinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D1D60FF728F6218D007C7237 /* BwinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BwinTests.swift; sourceTree = "<group>"; };
-		D1D60FFD28F6218D007C7237 /* BwinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BwinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D1D6100128F6218D007C7237 /* BwinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BwinUITests.swift; sourceTree = "<group>"; };
-		D1D6100328F6218D007C7237 /* BwinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BwinUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D1D6101628F62288007C7237 /* BehaviourProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BehaviourProtocols.swift; sourceTree = "<group>"; };
 		D1D6101728F62288007C7237 /* GameStatesEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameStatesEnum.swift; sourceTree = "<group>"; };
 		D1D6101928F62288007C7237 /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
@@ -182,22 +155,6 @@
 			files = (
 				9146B8B658D3654F50B9CF26 /* Pods_Bwin.framework in Frameworks */,
 				D14386F829015CDC00005ED7 /* GameKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D1D60FF028F6218D007C7237 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				978714E72B9ACDA9A6E393C8 /* Pods_BwinTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D1D60FFA28F6218D007C7237 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				358D387C8A21963958E45642 /* Pods_Bwin_BwinUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,8 +299,6 @@
 			children = (
 				D1D60FDC28F62189007C7237 /* Bwin */,
 				D14B11D8290085E800D76020 /* Assets.xcassets */,
-				D1D60FF628F6218D007C7237 /* BwinTests */,
-				D1D6100028F6218D007C7237 /* BwinUITests */,
 				D1D60FDB28F62189007C7237 /* Products */,
 				ED619F301205B322191B4AD9 /* Pods */,
 				DC1D0C8E32FD39B833F70EC7 /* Frameworks */,
@@ -354,8 +309,6 @@
 			isa = PBXGroup;
 			children = (
 				D1D60FDA28F62189007C7237 /* Bwin.app */,
-				D1D60FF328F6218D007C7237 /* BwinTests.xctest */,
-				D1D60FFD28F6218D007C7237 /* BwinUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -376,23 +329,6 @@
 				D1365EE228FD5AA50014CFD0 /* Resourses */,
 			);
 			path = Bwin;
-			sourceTree = "<group>";
-		};
-		D1D60FF628F6218D007C7237 /* BwinTests */ = {
-			isa = PBXGroup;
-			children = (
-				D1D60FF728F6218D007C7237 /* BwinTests.swift */,
-			);
-			path = BwinTests;
-			sourceTree = "<group>";
-		};
-		D1D6100028F6218D007C7237 /* BwinUITests */ = {
-			isa = PBXGroup;
-			children = (
-				D1D6100128F6218D007C7237 /* BwinUITests.swift */,
-				D1D6100328F6218D007C7237 /* BwinUITestsLaunchTests.swift */,
-			);
-			path = BwinUITests;
 			sourceTree = "<group>";
 		};
 		D1D6101028F621BC007C7237 /* Screens */ = {
@@ -622,45 +558,6 @@
 			productReference = D1D60FDA28F62189007C7237 /* Bwin.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D1D60FF228F6218D007C7237 /* BwinTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D1D6100A28F6218D007C7237 /* Build configuration list for PBXNativeTarget "BwinTests" */;
-			buildPhases = (
-				D1281DF04BDAA54A152EF4CC /* [CP] Check Pods Manifest.lock */,
-				D1D60FEF28F6218D007C7237 /* Sources */,
-				D1D60FF028F6218D007C7237 /* Frameworks */,
-				D1D60FF128F6218D007C7237 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D1D60FF528F6218D007C7237 /* PBXTargetDependency */,
-			);
-			name = BwinTests;
-			productName = BwinTests;
-			productReference = D1D60FF328F6218D007C7237 /* BwinTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		D1D60FFC28F6218D007C7237 /* BwinUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D1D6100D28F6218D007C7237 /* Build configuration list for PBXNativeTarget "BwinUITests" */;
-			buildPhases = (
-				4F4F42D9938BE53588D4B797 /* [CP] Check Pods Manifest.lock */,
-				D1D60FF928F6218D007C7237 /* Sources */,
-				D1D60FFA28F6218D007C7237 /* Frameworks */,
-				D1D60FFB28F6218D007C7237 /* Resources */,
-				4C8A05D5E627F3BB8F50AA16 /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D1D60FFF28F6218D007C7237 /* PBXTargetDependency */,
-			);
-			name = BwinUITests;
-			productName = BwinUITests;
-			productReference = D1D60FFD28F6218D007C7237 /* BwinUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -673,14 +570,6 @@
 				TargetAttributes = {
 					D1D60FD928F62189007C7237 = {
 						CreatedOnToolsVersion = 13.4;
-					};
-					D1D60FF228F6218D007C7237 = {
-						CreatedOnToolsVersion = 13.4;
-						TestTargetID = D1D60FD928F62189007C7237;
-					};
-					D1D60FFC28F6218D007C7237 = {
-						CreatedOnToolsVersion = 13.4;
-						TestTargetID = D1D60FD928F62189007C7237;
 					};
 				};
 			};
@@ -698,8 +587,6 @@
 			projectRoot = "";
 			targets = (
 				D1D60FD928F62189007C7237 /* Bwin */,
-				D1D60FF228F6218D007C7237 /* BwinTests */,
-				D1D60FFC28F6218D007C7237 /* BwinUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -730,20 +617,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D1D60FF128F6218D007C7237 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D1D60FFB28F6218D007C7237 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -764,45 +637,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bwin/Pods-Bwin-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4C8A05D5E627F3BB8F50AA16 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Bwin-BwinUITests/Pods-Bwin-BwinUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Bwin-BwinUITests/Pods-Bwin-BwinUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bwin-BwinUITests/Pods-Bwin-BwinUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4F4F42D9938BE53588D4B797 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Bwin-BwinUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		9FDF565ECBB1B89EADA9021E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -819,28 +653,6 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-Bwin-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D1281DF04BDAA54A152EF4CC /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-BwinTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -900,37 +712,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D1D60FEF28F6218D007C7237 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D1D60FF828F6218D007C7237 /* BwinTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D1D60FF928F6218D007C7237 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D1D6100428F6218D007C7237 /* BwinUITestsLaunchTests.swift in Sources */,
-				D1D6100228F6218D007C7237 /* BwinUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		D1D60FF528F6218D007C7237 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D1D60FD928F62189007C7237 /* Bwin */;
-			targetProxy = D1D60FF428F6218D007C7237 /* PBXContainerItemProxy */;
-		};
-		D1D60FFF28F6218D007C7237 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D1D60FD928F62189007C7237 /* Bwin */;
-			targetProxy = D1D60FFE28F6218D007C7237 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D1D60FE728F62189007C7237 /* Main.storyboard */ = {
@@ -1138,86 +920,6 @@
 			};
 			name = Release;
 		};
-		D1D6100B28F6218D007C7237 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0969598B78BC34DDA313B817 /* Pods-BwinTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 62C374FX49;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = blissnyashki.BwinTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bwin.app/Bwin";
-			};
-			name = Debug;
-		};
-		D1D6100C28F6218D007C7237 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E499553B997EB7568A30452B /* Pods-BwinTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 62C374FX49;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = blissnyashki.BwinTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bwin.app/Bwin";
-			};
-			name = Release;
-		};
-		D1D6100E28F6218D007C7237 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D02BF1569CBB4402ABEDAEF8 /* Pods-Bwin-BwinUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 62C374FX49;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = blissnyashki.BwinUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Bwin;
-			};
-			name = Debug;
-		};
-		D1D6100F28F6218D007C7237 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 31D41EC01B45C58E07DF157B /* Pods-Bwin-BwinUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 62C374FX49;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = blissnyashki.BwinUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Bwin;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1235,24 +937,6 @@
 			buildConfigurations = (
 				D1D6100828F6218D007C7237 /* Debug */,
 				D1D6100928F6218D007C7237 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D1D6100A28F6218D007C7237 /* Build configuration list for PBXNativeTarget "BwinTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D1D6100B28F6218D007C7237 /* Debug */,
-				D1D6100C28F6218D007C7237 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D1D6100D28F6218D007C7237 /* Build configuration list for PBXNativeTarget "BwinUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D1D6100E28F6218D007C7237 /* Debug */,
-				D1D6100F28F6218D007C7237 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
