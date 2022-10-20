@@ -1,0 +1,6 @@
+framework module Pods_Bwin {
+  umbrella header "Pods-Bwin-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SettingsCell" customModule="Bwin" customModuleProvider="target">
+            <connections>
+                <outlet property="changeButton" destination="FlA-kH-tEt" id="DHh-wq-nwL"/>
+                <outlet property="titleLabel" destination="hFo-fu-lNf" id="bA6-jm-PNH"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="79" height="87"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sound" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hFo-fu-lNf">
+                    <rect key="frame" x="13" y="4" width="53" height="21"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="17"/>
+                    <color key="textColor" red="0.27064837829999999" green="0.20924266280000001" blue="0.15849533020000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FlA-kH-tEt">
+                    <rect key="frame" x="14.5" y="33" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="FlA-kH-tEt" secondAttribute="height" multiplier="1:1" id="vLY-TL-U2K"/>
+                        <constraint firstAttribute="width" constant="50" id="wsw-r6-FyK"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="soundOn"/>
+                    <connections>
+                        <action selector="changeButtonPressed:" destination="-1" eventType="touchUpInside" id="ej7-QI-aRk"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="FlA-kH-tEt" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Bz0-J2-EfZ"/>
+                <constraint firstItem="FlA-kH-tEt" firstAttribute="top" secondItem="hFo-fu-lNf" secondAttribute="bottom" constant="8" symbolic="YES" id="Xtx-C7-Rht"/>
+                <constraint firstItem="hFo-fu-lNf" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="qU2-s4-R83"/>
+                <constraint firstItem="hFo-fu-lNf" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="4" id="wZU-Qr-dqq"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="138.40579710144928" y="83.370535714285708"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="soundOn" width="50" height="50"/>
+    </resources>
+</document>
