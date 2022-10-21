@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9146B8B658D3654F50B9CF26 /* Pods_Bwin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C944F1DE7A71C64C8808BD1 /* Pods_Bwin.framework */; };
+		B19EDAB4B5486289819128B9 /* Pods_Bwin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FD675405BF1DF6929560FB /* Pods_Bwin.framework */; };
 		D10266A328FF290800EA2E3B /* InstructionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10266A228FF290800EA2E3B /* InstructionModel.swift */; };
 		D10266A528FF2C0E00EA2E3B /* swipe.json in Resources */ = {isa = PBXBuildFile; fileRef = D10266A428FF2C0E00EA2E3B /* swipe.json */; };
 		D10266A728FF2C3A00EA2E3B /* courtBacketball.json in Resources */ = {isa = PBXBuildFile; fileRef = D10266A628FF2C3A00EA2E3B /* courtBacketball.json */; };
@@ -73,13 +73,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0969598B78BC34DDA313B817 /* Pods-BwinTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BwinTests.debug.xcconfig"; path = "Target Support Files/Pods-BwinTests/Pods-BwinTests.debug.xcconfig"; sourceTree = "<group>"; };
-		0DABC7359A9032B17CF09152 /* Pods_BwinTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BwinTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1997DF023F79C833F9DAECD9 /* Pods-Bwin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bwin.release.xcconfig"; path = "Target Support Files/Pods-Bwin/Pods-Bwin.release.xcconfig"; sourceTree = "<group>"; };
-		31D41EC01B45C58E07DF157B /* Pods-Bwin-BwinUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bwin-BwinUITests.release.xcconfig"; path = "Target Support Files/Pods-Bwin-BwinUITests/Pods-Bwin-BwinUITests.release.xcconfig"; sourceTree = "<group>"; };
-		5C944F1DE7A71C64C8808BD1 /* Pods_Bwin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bwin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8AEA01F38589ABA559AAE6C7 /* Pods-Bwin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bwin.debug.xcconfig"; path = "Target Support Files/Pods-Bwin/Pods-Bwin.debug.xcconfig"; sourceTree = "<group>"; };
-		D02BF1569CBB4402ABEDAEF8 /* Pods-Bwin-BwinUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bwin-BwinUITests.debug.xcconfig"; path = "Target Support Files/Pods-Bwin-BwinUITests/Pods-Bwin-BwinUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		32FD675405BF1DF6929560FB /* Pods_Bwin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bwin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BDB435B4ECDC7541C37AB3F /* Pods-Bwin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bwin.debug.xcconfig"; path = "Target Support Files/Pods-Bwin/Pods-Bwin.debug.xcconfig"; sourceTree = "<group>"; };
 		D10266A228FF290800EA2E3B /* InstructionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionModel.swift; sourceTree = "<group>"; };
 		D10266A428FF2C0E00EA2E3B /* swipe.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = swipe.json; sourceTree = "<group>"; };
 		D10266A628FF2C3A00EA2E3B /* courtBacketball.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = courtBacketball.json; sourceTree = "<group>"; };
@@ -144,8 +139,7 @@
 		D1D6104628F75234007C7237 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		D1D6104828F7539B007C7237 /* StartScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StartScene.sks; sourceTree = "<group>"; };
 		D1D6104A28F7541B007C7237 /* StartScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScene.swift; sourceTree = "<group>"; };
-		D350A675C4B5AF01B99B0DD1 /* Pods_Bwin_BwinUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bwin_BwinUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E499553B997EB7568A30452B /* Pods-BwinTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BwinTests.release.xcconfig"; path = "Target Support Files/Pods-BwinTests/Pods-BwinTests.release.xcconfig"; sourceTree = "<group>"; };
+		E33B5655B07A203699615ABF /* Pods-Bwin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bwin.release.xcconfig"; path = "Target Support Files/Pods-Bwin/Pods-Bwin.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,8 +147,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9146B8B658D3654F50B9CF26 /* Pods_Bwin.framework in Frameworks */,
 				D14386F829015CDC00005ED7 /* GameKit.framework in Frameworks */,
+				B19EDAB4B5486289819128B9 /* Pods_Bwin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,9 +510,7 @@
 			isa = PBXGroup;
 			children = (
 				D14386F729015CDC00005ED7 /* GameKit.framework */,
-				5C944F1DE7A71C64C8808BD1 /* Pods_Bwin.framework */,
-				D350A675C4B5AF01B99B0DD1 /* Pods_Bwin_BwinUITests.framework */,
-				0DABC7359A9032B17CF09152 /* Pods_BwinTests.framework */,
+				32FD675405BF1DF6929560FB /* Pods_Bwin.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -526,12 +518,8 @@
 		ED619F301205B322191B4AD9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8AEA01F38589ABA559AAE6C7 /* Pods-Bwin.debug.xcconfig */,
-				1997DF023F79C833F9DAECD9 /* Pods-Bwin.release.xcconfig */,
-				D02BF1569CBB4402ABEDAEF8 /* Pods-Bwin-BwinUITests.debug.xcconfig */,
-				31D41EC01B45C58E07DF157B /* Pods-Bwin-BwinUITests.release.xcconfig */,
-				0969598B78BC34DDA313B817 /* Pods-BwinTests.debug.xcconfig */,
-				E499553B997EB7568A30452B /* Pods-BwinTests.release.xcconfig */,
+				9BDB435B4ECDC7541C37AB3F /* Pods-Bwin.debug.xcconfig */,
+				E33B5655B07A203699615ABF /* Pods-Bwin.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -543,11 +531,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1D6100728F6218D007C7237 /* Build configuration list for PBXNativeTarget "Bwin" */;
 			buildPhases = (
-				9FDF565ECBB1B89EADA9021E /* [CP] Check Pods Manifest.lock */,
+				7D0690817B799E4B10BEF2A9 /* [CP] Check Pods Manifest.lock */,
 				D1D60FD628F62189007C7237 /* Sources */,
 				D1D60FD728F62189007C7237 /* Frameworks */,
 				D1D60FD828F62189007C7237 /* Resources */,
-				45938E0A21D810AB2F5BA0ED /* [CP] Embed Pods Frameworks */,
+				D2D6E223CCB70A6195C2ED94 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -620,24 +608,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		45938E0A21D810AB2F5BA0ED /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Bwin/Pods-Bwin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Bwin/Pods-Bwin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bwin/Pods-Bwin-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9FDF565ECBB1B89EADA9021E /* [CP] Check Pods Manifest.lock */ = {
+		7D0690817B799E4B10BEF2A9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -657,6 +628,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2D6E223CCB70A6195C2ED94 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bwin/Pods-Bwin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bwin/Pods-Bwin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bwin/Pods-Bwin-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -850,7 +838,7 @@
 		};
 		D1D6100828F6218D007C7237 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8AEA01F38589ABA559AAE6C7 /* Pods-Bwin.debug.xcconfig */;
+			baseConfigurationReference = 9BDB435B4ECDC7541C37AB3F /* Pods-Bwin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -886,7 +874,7 @@
 		};
 		D1D6100928F6218D007C7237 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1997DF023F79C833F9DAECD9 /* Pods-Bwin.release.xcconfig */;
+			baseConfigurationReference = E33B5655B07A203699615ABF /* Pods-Bwin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

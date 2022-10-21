@@ -7,13 +7,4 @@ target 'Bwin' do
 
   # Pods for Bwin
 pod 'lottie-ios'
-  target 'BwinTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'BwinUITests' do
-    # Pods for testing
-  end
-
 end

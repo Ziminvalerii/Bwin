@@ -1,6 +1,0 @@
-framework module Pods_BwinTests {
-  umbrella header "Pods-BwinTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
