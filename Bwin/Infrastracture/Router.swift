@@ -17,6 +17,7 @@ protocol RouterProtocol {
     func goToGameCenter()
     func goToSettings()
     func goToInstruction()
+    func goToPrivacyPolicy()
     func goToShop()
     func back()
     func dissmiss()
@@ -72,6 +73,13 @@ class Router: RouterProtocol {
     func goToShop() {
         let vc = builder.resolveShopViewController(router: self)
         self.navigationController.pushViewController(vc, animated: true)
+    }
+    
+    func goToPrivacyPolicy() {
+        guard let url = URL(string: "https://docs.google.com/document/d/1QuVUi0iYEmCjfiKLZzRZie9qLDizZXzXE6ZQ7hMrM9M/edit?usp=sharing") else {return}
+        let vc = builder.resolvePrivacyPolicy(url: url)
+        vc.modalPresentationStyle = .formSheet
+        self.navigationController.present(vc, animated: true)
     }
     
     func goToGameCenter() {

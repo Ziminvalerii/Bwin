@@ -11,6 +11,7 @@ enum SettingsModel: CaseIterable {
     case sound
     case music
     case vibration
+    case privacyPolicy
     
     var title: String {
         switch self {
@@ -20,6 +21,8 @@ enum SettingsModel: CaseIterable {
             return "Music"
         case .vibration:
             return "Vibration"
+        case .privacyPolicy:
+            return "Privacy Policy"
         }
     }
     
@@ -31,6 +34,8 @@ enum SettingsModel: CaseIterable {
             return UIImage(named: "musicOn")!
         case .vibration:
             return UIImage(named: "vibrationOn")!
+        case .privacyPolicy:
+            return UIImage(named: "privacyPolicy")!
         }
     }
     
@@ -42,6 +47,8 @@ enum SettingsModel: CaseIterable {
             return UIImage(named: "musicOff")!
         case .vibration:
             return UIImage(named: "vibrationOff")!
+        case .privacyPolicy:
+            return UIImage(named: "privacyPolicy")!
         }
     }
     
@@ -53,10 +60,12 @@ enum SettingsModel: CaseIterable {
             return !UserDefaultsValues.musicOff
         case .vibration:
             return !UserDefaultsValues.vibrationOff
+        case .privacyPolicy:
+            return true
         }
     }
     
-    func valueChanged() {
+    func valueChanged(router: RouterProtocol?) {
         switch self {
         case .sound:
             UserDefaultsValues.soundOff = !UserDefaultsValues.soundOff
@@ -75,6 +84,8 @@ enum SettingsModel: CaseIterable {
             if !UserDefaultsValues.vibrationOff {
                 playVibration()
             }
+        case .privacyPolicy:
+            router?.goToPrivacyPolicy()
         }
     }
 

@@ -34,6 +34,12 @@ class SettingsViewController: UIViewController {
             vibrationCell.configure(model: .vibration)
         }
     }
+    @IBOutlet weak var privacyPolicyCell: SettingsCell! {
+        didSet {
+            privacyPolicyCell.router = router
+            privacyPolicyCell.configure(model: .privacyPolicy)
+        }
+    }
     @IBOutlet weak var cancelButton: UIButton!
     
     override func viewDidLoad() {

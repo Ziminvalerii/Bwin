@@ -41,6 +41,7 @@
 		D1CBE6BD28FED5B10092541C /* VibrationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CBE6BC28FED5B10092541C /* VibrationManager.swift */; };
 		D1CBE6C228FEE5820092541C /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CBE6C128FEE5810092541C /* ShopViewController.swift */; };
 		D1CBE6C428FEEF5A0092541C /* ShopModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CBE6C328FEEF5A0092541C /* ShopModel.swift */; };
+		D1D1A19D29067D26006B352C /* PrivacyPolicyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D1A19C29067D26006B352C /* PrivacyPolicyViewController.swift */; };
 		D1D3E53828FDD63E0000863E /* GameOverOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D3E53728FDD63D0000863E /* GameOverOverlay.swift */; };
 		D1D3E53A28FDD8970000863E /* GameOverState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D3E53928FDD8970000863E /* GameOverState.swift */; };
 		D1D60FDE28F62189007C7237 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D60FDD28F62189007C7237 /* AppDelegate.swift */; };
@@ -109,6 +110,7 @@
 		D1CBE6BC28FED5B10092541C /* VibrationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibrationManager.swift; sourceTree = "<group>"; };
 		D1CBE6C128FEE5810092541C /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
 		D1CBE6C328FEEF5A0092541C /* ShopModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopModel.swift; sourceTree = "<group>"; };
+		D1D1A19C29067D26006B352C /* PrivacyPolicyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyViewController.swift; sourceTree = "<group>"; };
 		D1D3E53728FDD63D0000863E /* GameOverOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverOverlay.swift; sourceTree = "<group>"; };
 		D1D3E53928FDD8970000863E /* GameOverState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverState.swift; sourceTree = "<group>"; };
 		D1D60FDA28F62189007C7237 /* Bwin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bwin.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -288,6 +290,14 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		D1D1A19B29067D0B006B352C /* Privacy Policy */ = {
+			isa = PBXGroup;
+			children = (
+				D1D1A19C29067D26006B352C /* PrivacyPolicyViewController.swift */,
+			);
+			path = "Privacy Policy";
+			sourceTree = "<group>";
+		};
 		D1D60FD128F62189007C7237 = {
 			isa = PBXGroup;
 			children = (
@@ -328,6 +338,7 @@
 		D1D6101028F621BC007C7237 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				D1D1A19B29067D0B006B352C /* Privacy Policy */,
 				D123D7D229015DAF00A5E224 /* Loader */,
 				D1D6103D28F75005007C7237 /* Start */,
 				D19BE90628F823D9004F691B /* Create Game */,
@@ -677,6 +688,7 @@
 				D1D6103028F62354007C7237 /* UserDefaultsValue.swift in Sources */,
 				D1D6103A28F6D6D4007C7237 /* PhysicsBitMask.swift in Sources */,
 				D1D6102A28F62288007C7237 /* BaseViewController.swift in Sources */,
+				D1D1A19D29067D26006B352C /* PrivacyPolicyViewController.swift in Sources */,
 				D14B11D529003AC900D76020 /* StartPresenter.swift in Sources */,
 				D1D6102228F62288007C7237 /* BehaviourProtocols.swift in Sources */,
 				D19BE91028F867C4004F691B /* SettingsCell.swift in Sources */,
@@ -864,7 +876,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jonokoltd.bwin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = bwinProvisioningProfile;
@@ -900,7 +912,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jonokoltd.bwin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = bwinProvisioningProfile;

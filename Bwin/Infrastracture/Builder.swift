@@ -14,7 +14,8 @@ protocol BuilderProtocol {
     func resolveSettingsViewController(router:RouterProtocol) -> SettingsViewController
     func resolveShopViewController(router: RouterProtocol)-> ShopViewController
     func resolveInstructionViewController(router: RouterProtocol)-> InstructionViewController
-    func resolveLoaderViewController(router: RouterProtocol) -> LoaderViewController 
+    func resolveLoaderViewController(router: RouterProtocol) -> LoaderViewController
+    func resolvePrivacyPolicy(url: URL) -> PrivacyPolicyViewController 
 }
 
 class Builder: BuilderProtocol {
@@ -62,6 +63,11 @@ class Builder: BuilderProtocol {
     func resolveLoaderViewController(router: RouterProtocol) -> LoaderViewController {
         let vc = LoaderViewController.instantiateMyViewController(name: .loader)
         vc.router = router
+        return vc
+    }
+    
+    func resolvePrivacyPolicy(url: URL) -> PrivacyPolicyViewController {
+        let vc = PrivacyPolicyViewController(url: url)
         return vc
     }
 }

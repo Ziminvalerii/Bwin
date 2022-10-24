@@ -13,6 +13,7 @@ class SettingsCell: UIView {
     @IBOutlet weak var changeButton: UIButton!
     @IBOutlet weak var titleLabel: UILabel!
     private var model: SettingsModel?
+    var router: RouterProtocol?
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -48,7 +49,7 @@ class SettingsCell: UIView {
     }
     @IBAction func changeButtonPressed(_ sender: Any) {
         guard let model = model else {return}
-        model.valueChanged()
+        model.valueChanged(router: router)
         changeButton.setImage(model.isOn ? model.onImage : model.offImage, for: .normal)
     }
     

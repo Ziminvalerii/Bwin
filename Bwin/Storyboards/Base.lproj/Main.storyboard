@@ -430,18 +430,18 @@
                                 </constraints>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="am8-IR-fR7" customClass="SettingsCell" customModule="Bwin" customModuleProvider="target">
-                                <rect key="frame" x="95" y="415.5" width="90" height="82"/>
+                                <rect key="frame" x="79" y="415.5" width="124" height="82"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="90" id="Peh-Ax-1Qu"/>
+                                    <constraint firstAttribute="width" constant="124" id="Peh-Ax-1Qu"/>
                                     <constraint firstAttribute="height" constant="82" id="rba-nL-Idh"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lf0-ng-E2n" customClass="SettingsCell" customModule="Bwin" customModuleProvider="target">
-                                <rect key="frame" x="229" y="415.5" width="90" height="82"/>
+                                <rect key="frame" x="211" y="415.5" width="124" height="82"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="90" id="mM2-Qn-w5B"/>
+                                    <constraint firstAttribute="width" constant="124" id="mM2-Qn-w5B"/>
                                     <constraint firstAttribute="height" constant="82" id="qZZ-Qs-uY3"/>
                                 </constraints>
                             </view>
@@ -453,11 +453,11 @@
                                 </connections>
                             </slider>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5aM-04-H8P" customClass="SettingsCell" customModule="Bwin" customModuleProvider="target">
-                                <rect key="frame" x="162" y="501.5" width="90" height="82"/>
+                                <rect key="frame" x="79" y="501.5" width="124" height="82"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="82" id="3c4-Gg-i9j"/>
-                                    <constraint firstAttribute="width" constant="90" id="Xnc-9d-Dhr"/>
+                                    <constraint firstAttribute="width" constant="124" id="Xnc-9d-Dhr"/>
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RxX-aw-LXX">
@@ -472,27 +472,37 @@
                                     <action selector="cancelButtonPressed:" destination="3Y0-8f-Eaj" eventType="touchUpInside" id="rBQ-oi-yzp"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jsM-me-7UV" customClass="SettingsCell" customModule="Bwin" customModuleProvider="target">
+                                <rect key="frame" x="211" y="501.5" width="124" height="82"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="124" id="2rO-1A-j6j"/>
+                                    <constraint firstAttribute="height" constant="82" id="Obm-2n-rf7"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="gtw-4B-N9b"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="Zji-LM-aqW" firstAttribute="centerX" secondItem="E9K-c3-A4F" secondAttribute="centerX" id="3BL-g4-2Ex"/>
                             <constraint firstItem="RxX-aw-LXX" firstAttribute="trailing" secondItem="x9l-SO-cjQ" secondAttribute="trailing" id="4JV-Cx-Hbk"/>
-                            <constraint firstItem="am8-IR-fR7" firstAttribute="leading" secondItem="x9l-SO-cjQ" secondAttribute="leading" constant="48" id="6lH-Oz-GZe"/>
+                            <constraint firstItem="am8-IR-fR7" firstAttribute="leading" secondItem="x9l-SO-cjQ" secondAttribute="leading" constant="32" id="6lH-Oz-GZe"/>
+                            <constraint firstItem="jsM-me-7UV" firstAttribute="centerY" secondItem="5aM-04-H8P" secondAttribute="centerY" id="AKg-72-Osg"/>
                             <constraint firstItem="x9l-SO-cjQ" firstAttribute="centerX" secondItem="2SV-qb-HdQ" secondAttribute="centerX" id="B20-WW-Jfl"/>
                             <constraint firstItem="wX5-Ac-LPs" firstAttribute="centerX" secondItem="2SV-qb-HdQ" secondAttribute="centerX" id="D3z-tl-dpL"/>
                             <constraint firstItem="Zji-LM-aqW" firstAttribute="centerY" secondItem="E9K-c3-A4F" secondAttribute="centerY" id="Erf-ci-637"/>
                             <constraint firstItem="5aM-04-H8P" firstAttribute="top" secondItem="Lf0-ng-E2n" secondAttribute="bottom" constant="4" id="HuS-Xe-H4P"/>
                             <constraint firstItem="Zji-LM-aqW" firstAttribute="height" secondItem="E9K-c3-A4F" secondAttribute="height" multiplier="1.07143" id="Jgs-s2-EIE"/>
                             <constraint firstItem="E9K-c3-A4F" firstAttribute="centerX" secondItem="2SV-qb-HdQ" secondAttribute="centerX" id="K0a-XS-rlD"/>
+                            <constraint firstItem="5aM-04-H8P" firstAttribute="leading" secondItem="am8-IR-fR7" secondAttribute="leading" id="KfE-qk-RS5"/>
+                            <constraint firstItem="jsM-me-7UV" firstAttribute="leading" secondItem="Lf0-ng-E2n" secondAttribute="leading" id="LHJ-3Y-mdd"/>
                             <constraint firstItem="RxX-aw-LXX" firstAttribute="top" secondItem="x9l-SO-cjQ" secondAttribute="top" id="QBB-68-zTN"/>
                             <constraint firstItem="wX5-Ac-LPs" firstAttribute="top" secondItem="x9l-SO-cjQ" secondAttribute="top" constant="32" id="RVl-KD-lf4"/>
                             <constraint firstItem="Zji-LM-aqW" firstAttribute="width" secondItem="E9K-c3-A4F" secondAttribute="width" multiplier="0.909408" id="T5e-74-SHW"/>
                             <constraint firstItem="E9K-c3-A4F" firstAttribute="top" secondItem="wX5-Ac-LPs" secondAttribute="bottom" constant="12" id="Yve-eu-g3Q"/>
                             <constraint firstItem="am8-IR-fR7" firstAttribute="top" secondItem="Zji-LM-aqW" secondAttribute="bottom" constant="16" id="aHX-ic-vnL"/>
                             <constraint firstItem="x9l-SO-cjQ" firstAttribute="centerY" secondItem="2SV-qb-HdQ" secondAttribute="centerY" id="bdf-LI-z5E"/>
-                            <constraint firstItem="Lf0-ng-E2n" firstAttribute="trailing" secondItem="x9l-SO-cjQ" secondAttribute="trailing" constant="-48" id="c20-GO-c4t"/>
-                            <constraint firstItem="5aM-04-H8P" firstAttribute="centerX" secondItem="2SV-qb-HdQ" secondAttribute="centerX" id="g8I-Bj-Eyp"/>
+                            <constraint firstItem="Lf0-ng-E2n" firstAttribute="trailing" secondItem="x9l-SO-cjQ" secondAttribute="trailing" constant="-32" id="c20-GO-c4t"/>
                             <constraint firstItem="Lf0-ng-E2n" firstAttribute="top" secondItem="Zji-LM-aqW" secondAttribute="bottom" constant="16" id="vai-CU-XAj"/>
                         </constraints>
                     </view>
@@ -501,6 +511,7 @@
                         <outlet property="cancelButton" destination="RxX-aw-LXX" id="Alj-SG-KJO"/>
                         <outlet property="containerImageView" destination="x9l-SO-cjQ" id="LrP-9t-VsN"/>
                         <outlet property="musicCell" destination="5aM-04-H8P" id="Hyk-bX-oy7"/>
+                        <outlet property="privacyPolicyCell" destination="jsM-me-7UV" id="DiB-1I-5KD"/>
                         <outlet property="slider" destination="Zji-LM-aqW" id="2vk-mH-1za"/>
                         <outlet property="sliderBackground" destination="E9K-c3-A4F" id="X7h-WZ-Eno"/>
                         <outlet property="soundCell" destination="am8-IR-fR7" id="PDa-PW-Vxe"/>
