@@ -29,15 +29,16 @@ class PrivacyPolicyViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    override var shouldAutorotate: Bool {
+        return true
     }
-    */
+
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return .portrait
+    }
+
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }
 
 }

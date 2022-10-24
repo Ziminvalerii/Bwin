@@ -88,7 +88,7 @@ fileprivate func request(uuid: String, _ handler: @escaping (Result) -> Void) {
     urlComponents.path = "/v2/guest"
     urlComponents.queryItems = [
         URLQueryItem(name: "uuid", value: uuid),
-        URLQueryItem(name: "app", value: "6443563922")
+        URLQueryItem(name: "app", value: "6443936312")
     ]
     guard let url = urlComponents.url else {
         handler(.error)
